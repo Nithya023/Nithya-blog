@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Chennai: Places to Visit & More</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+        }
+        .blog-post-card {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
+    <!-- Header Section -->
+    <header class="w-full max-w-4xl text-center mb-12">
+        <h1 class="text-5xl font-bold text-gray-900 mb-4 rounded-lg">Discover Chennai</h1>
+        <p class="text-xl text-gray-600 rounded-lg">Your guide to the vibrant culture and hidden gems of Chennai.</p>
+    </header>
+
+    <!-- Main Content - Blog Posts -->
+    <main class="w-full max-w-4xl space-y-8 mb-16">
+        <!-- Blog Post 1: Marina Beach -->
+        <article class="blog-post-card bg-white rounded-xl p-6 sm:p-8">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-3">Marina Beach: A Stroll Along the Second Longest Beach</h2>
+            <p class="text-gray-500 text-sm mb-4">Published on June 25, 2025 by Local Explorer</p>
+            <img src="https://placehold.co/600x300/a78bfa/ffffff?text=Marina+Beach" alt="Marina Beach" class="w-full h-auto object-cover rounded-lg mb-6">
+            <p class="text-gray-700 text-lg leading-relaxed mb-4">
+                Marina Beach, stretching for 13 kilometers along the Bay of Bengal, is not just a landmark but a way of life for Chennaites. From vibrant food stalls to leisurely evening walks, it offers a unique blend of urban charm and natural beauty. Learn about its history, attractions, and what makes it a must-visit.
+            </p>
+            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-semibold text-lg">Read More &rarr;</a>
+        </article>
+
+        <!-- Blog Post 2: Kapaleeshwarar Temple -->
+        <article class="blog-post-card bg-white rounded-xl p-6 sm:p-8">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-3">Kapaleeshwarar Temple: A Glimpse into Dravidian Architecture</h2>
+            <p class="text-gray-500 text-sm mb-4">Published on June 20, 2025 by Culture Enthusiast</p>
+            <img src="https://placehold.co/600x300/60a5fa/ffffff?text=Kapaleeshwarar+Temple" alt="Kapaleeshwarar Temple" class="w-full h-auto object-cover rounded-lg mb-6">
+            <p class="text-gray-700 text-lg leading-relaxed mb-4">
+                Located in Mylapore, the ancient Kapaleeshwarar Temple is a stunning example of Dravidian architecture, dedicated to Lord Shiva. Its towering gopuram (gateway tower) adorned with intricate sculptures is a sight to behold. Discover the temple's rich history, legends, and its significance in Chennai's cultural fabric.
+            </p>
+            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-semibold text-lg">Read More &rarr;</a>
+        </article>
+
+        <!-- Blog Post 3: A Taste of Chennai's Cuisine -->
+        <article class="blog-post-card bg-white rounded-xl p-6 sm:p-8">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-3">Chennai's Culinary Delights: From Filter Coffee to Authentic Dosas</h2>
+            <p class="text-gray-500 text-sm mb-4">Published on June 15, 2025 by Foodie Explorer</p>
+            <img src="https://placehold.co/600x300/34d399/ffffff?text=Chennai+Food" alt="Chennai Food" class="w-full h-auto object-cover rounded-lg mb-6">
+            <p class="text-gray-700 text-lg leading-relaxed mb-4">
+                Chennai's food scene is as diverse as its culture. Indulge in the aromatic filter coffee, savor crispy dosas, fluffy idlis, and a myriad of South Indian delicacies. This post guides you through the must-try dishes and the best places to experience authentic Chennai cuisine.
+            </p>
+            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-semibold text-lg">Read More &rarr;</a>
+        </article>
+
+        <!-- Blog Post 4: The Vandalur Zoo -->
+        <article class="blog-post-card bg-white rounded-xl p-6 sm:p-8">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-3">Arignar Anna Zoological Park (Vandalur Zoo): A Day with Wildlife</h2>
+            <p class="text-gray-500 text-sm mb-4">Published on June 10, 2025 by Nature Lover</p>
+            <img src="https://placehold.co/600x300/facc15/ffffff?text=Vandalur+Zoo" alt="Vandalur Zoo" class="w-full h-auto object-cover rounded-lg mb-6">
+            <p class="text-gray-700 text-lg leading-relaxed mb-4">
+                For a family-friendly outing, the Arignar Anna Zoological Park, popularly known as Vandalur Zoo, offers an expansive natural habitat for a wide variety of animals. Discover Bengal tigers, lions, elephants, and exotic birds. Plan your visit with this guide to make the most of your day at one of India's largest zoos.
+            </p>
+            <a href="#" class="text-indigo-600 hover:text-indigo-800 font-semibold text-lg">Read More &rarr;</a>
+        </article>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="w-full max-w-4xl text-center text-gray-500 text-sm mt-auto py-4">
+        &copy; 2025 Explore Chennai Blog. All rights reserved.
+    </footer>
+</body>
+</html>
